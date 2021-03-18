@@ -1,0 +1,32 @@
+#back2TopButton {
+    display: none; /* Hidden by default */
+    position: fixed; /* Fixed/sticky position */
+    bottom: 50px; /* Place the button at the bottom of the page */
+    right: 57px; /* Place the button 30px from the right */
+    z-index: 99; /* Make sure it does not overlap */
+    border: none; /* Remove borders */
+    outline: none; /* Remove outline */
+    cursor: pointer; /* Add a mouse pointer on hover */
+    margin: 0;
+    padding: 0;
+    /* border-radius: 5px; */
+    height: 50px;
+    width: 50px;
+}
+#back2TopButton>img{
+    border-radius: 10%;
+}
+  
+#back2TopButton:hover {
+    opacity: 0.2;
+
+}
+
+@keyframes buttonFade{
+    from{
+        opacity: 1;
+    }
+    to{
+        opacity: 0.2;
+    }
+}

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>button</title>
+    <link rel="stylesheet" href="./back2Top.css">
+</head>
+<body>
+
+
+    <button onclick="topFunction()" id="back2TopButton" title="Go to top">
+    <img src="./back2TopButton.png">
+</button>
+    
+</body>
+</html>
+
+<script>
+    back2TopButton = document.getElementById("back2TopButton");
+
+    // When the user scrolls down 20px from the top of the document, show the button
+    window.onscroll = function() {scrollFunction()};
+
+    function scrollFunction() {
+    if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+        back2TopButton.style.display = "block";
+    } else {
+        back2TopButton.style.display = "none";
+    }
+    }
+
+    // When the user clicks on the button, scroll to the top of the document
+    function topFunction() {
+    document.body.scrollTop = 0; // For Safari
+    document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+    }
+</script>

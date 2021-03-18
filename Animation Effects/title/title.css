@@ -1,0 +1,19 @@
+#title1Background{
+    background-image: linear-gradient(628deg, rgb(184, 160, 104) 0%, rgb(226, 216, 193) 78.9474%);
+    color :transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
+    font-size: 100px;
+    font-family: 宋体;
+    font-weight: bold;
+    
+  }
+
+#title1{
+  position: absolute;
+  /* color: linear-gradient(452deg,rgb(202, 178, 134) 32.4561%, rgb(184, 160, 104) 94.7369%); */
+  margin: 0;
+  /* color :lightyellow; */
+
+  /* background-image: linear-gradient(452deg,rgb(202, 178, 134) 32.4561%, rgb(184, 160, 104) 94.7369%); */
+}

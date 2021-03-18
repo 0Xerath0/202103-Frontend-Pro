@@ -1,0 +1,36 @@
+span.rollingNums{
+    font-size: 50px;
+    font-weight: bold;
+    animation: roll 1s 5;
+    
+}
+div.rollingNums{
+    font-size: 50px;
+    font-weight: bold;
+    
+}
+
+div.rollingNums {
+    width: 1em;
+    height: 1em;
+    overflow: hidden;
+    line-height: 1em;
+    display: inline-block;
+}
+
+span.rollingNums{
+    position: relative;
+}
+
+
+@keyframes roll{ 
+    0% {
+        top: 0em;
+      }
+      50% {
+        top: -5em;
+      }
+      100% {
+        top: -9em;
+      }
+}

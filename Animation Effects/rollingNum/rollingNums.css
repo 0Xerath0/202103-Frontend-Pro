@@ -1,0 +1,177 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+#rollingNumsScreen{
+    /* position: absolute; */
+    height: 350px;
+    width: 1200px;
+    background: url(./background.jpg);
+
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+    /* line-height: 72px; */
+    text-align: center;
+    vertical-align: middle;
+    /* text-align-last: justify; */
+}
+.numBackground{
+    position: relative;
+    display: inline-block;
+    margin: auto;
+    top: 50%;
+    transform: translateY(-50%);
+    /* height: 100%; */
+    /* background:lightgray; */
+    /* vertical-align: middle; */
+    /* line-height: 1.5; */
+
+    /* line-height :72px; */
+    /* margin: auto; */
+    padding: 0;
+    width: 25%; 
+    border: 0;
+    
+}
+.rollingNums{
+    font-size: 48px;
+    color: #676767;
+    font-family: 黑体;
+    margin :auto;
+}
+.subtitle{
+    font-size: 12px;
+    font-family: 微软雅黑;
+    color: rgb(169,169,169);
+}
+.subchar{
+    font-size: 12px;
+    color: #4b4b4b;
+    font-family: 微软雅黑;
+}
+
+
+div.rollingNums {
+    width: 1em;
+    height: 1em;
+    overflow: hidden;
+    line-height: 1em;
+    display: inline-block;
+}
+
+span.rollingNums{
+    display: inline-block;
+    position: relative;
+    /* animation: roll 3s ease-in-out ; */
+}
+#digit0{
+    animation: roll0 3s ease-in-out  forwards;
+    }
+#digit1{
+    animation: roll1 3s ease-in-out  forwards;
+    }
+#digit2{
+    animation: roll2 3s ease-in-out  forwards;
+    }
+#digit3{
+    animation: roll3 3s ease-in-out  forwards;
+    }
+#digit4{
+    animation: roll4 3s ease-in-out  forwards;
+    }
+#digit5{
+    animation: roll5 3s ease-in-out  forwards;
+    }
+#digit6{
+    animation: roll6 3s ease-in-out  forwards;
+    }
+#digit7{
+    animation: roll7 3s ease-in-out  forwards;
+    }
+#digit8{
+    animation: roll8 3s ease-in-out  forwards;
+    }
+#digit9{
+    animation: roll9 3s ease-in-out  forwards;
+    }
+@keyframes roll0{ 
+    0% {
+        top: 0em;
+      }
+      100% {
+        top: 0em;
+      }
+}
+@keyframes roll1{ 
+    from {
+        top: 0em;
+      }
+      to{
+        top: -1em;
+      }
+}
+@keyframes roll2{ 
+    0% {
+        top: 0em;
+      }
+      100% {
+        top: -2em;
+      }
+}
+@keyframes roll3{ 
+    0% {
+        top: 0em;
+      }
+      100% {
+        top: -3em;
+      }
+}
+@keyframes roll4{ 
+    0% {
+        top: em;
+      }
+      100% {
+        top: -4em;
+      }
+}
+@keyframes roll5{ 
+    0% {
+        top: 0em;
+      }
+      100% {
+        top: -5em;
+      }
+}
+@keyframes roll6{ 
+    0% {
+        top: 0em;
+      }
+      100% {
+        top: -6em;
+      }
+}
+@keyframes roll7{ 
+    0% {
+        top: 0em;
+      }
+      100% {
+        top: -7em;
+      }
+}
+@keyframes roll8{ 
+    0% {
+        top: 0em;
+      }
+      100% {
+        top: -8em;
+      }
+}
+@keyframes roll9{ 
+    0% {
+        top: 0em;
+      }
+      100% {
+        top: -9em;
+      }
+}
