@@ -1,0 +1,168 @@
+#productCla
+{
+    width: 100%;
+    /* height: 350px; */
+    text-align: center;
+    /* text-align-last: justify; */
+    margin: 0;
+    padding: 0;
+    /* background-color: lightgreen; */
+}
+#productCla>.proCla{
+    display: inline-block;
+    margin:80px 4%;
+}
+#productCla>.proCla>span{
+    font-size: 60px;
+    margin: 0 20px;
+    color: #e0e0e0;
+}
+#productIntro
+{
+    width: 100%;
+    height:300px;
+    /* background-color: lightblue; */
+}
+#productIntro>.proIntro
+{
+    display: inline-block;
+    display: flex;
+    line-height: 300px;
+    background-color: lightcoral;
+}
+#productIntro>div{
+    float:left;
+    margin: 0 5%;
+}
+#aboutUs{
+    text-align: center;
+}
+#aboutUs>div{
+    display: inline-block;
+    margin: 0 50px;
+}
+#template{
+    /* background-color: lightblue; */
+    width: 100%;
+    height:800px;
+    position: relative;
+    /* text-align: center; */
+}
+#template>#p4{
+    position: absolute;
+    left:5%;
+}
+#template>#p5{
+    position: absolute;
+    left:50%;
+    top:50px;
+}
+#template>#p6{
+    position: absolute;
+    left:5%;
+    top:550px;
+}
+#template>#p7{
+    position: absolute;
+    left: 50%;
+    top: 600px;
+}
+
+
+
+
+#studyTutor{
+    /* background: lightcoral; */
+/*    position: absolute;
+    top:2000px;*/
+    position: absolute;
+    margin: 0;
+    padding: 0;
+    top:2350px;
+    width: 100%;
+    display: flex;
+    height: 900px;
+    background: url(./src/backgroundL1.jpg);
+}
+
+#studyTutor img{
+    width: 80%;
+    height: 240px;
+}
+
+#studyExampleTotal{
+    position: absolute;
+    left: 10%   ;
+    width: 100%;
+    height: 500px;
+    top: 350px;
+    margin: 0;
+    padding:0;
+    display: flex;
+    text-align: center;
+    vertical-align: middle;
+    /* background: lightcoral; */
+}
+#studyExampleTotal .studyExample{
+    display: flex;
+    /* background-color: lightgreen; */
+/*    height: 400px;
+    width: 450px;*/
+    height:350px;
+    display: inline-block;
+}
+
+#gallery{
+    /* background-color: lightblue; */
+    position: absolute;
+    top:3200px;
+    height:1000px;
+    width: 100%;
+}
+#gallery>#galleryTitle{
+    position: absolute;
+    left: 10%;
+    top:13%;
+}
+#gallerySecond{
+    position: absolute;
+    top:200px;
+    left:10%;
+    /* background-color: lightcoral; */
+    width: 80%;
+    height:900px;
+    margin: 0;
+    text-align: center;
+    padding: 0;
+    border: 0;
+}
+#gallerySecond>div{
+    text-align:center;
+    display: flex;
+}
+#gallerySecond>div>.galleryItem{
+    display: inline-block;
+    /* background-color: lightgreen; */
+    text-align: center;
+    /*line-height: 100%;*/
+    display: flex;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+
+
+#bottom{
+    width: 100%;
+    height: 250px;
+    text-align: center;
+    background-color: black;
+}
+#bottom>span{
+    color: aliceblue;
+    line-height: 250px;
+    margin: auto 30px;
+}

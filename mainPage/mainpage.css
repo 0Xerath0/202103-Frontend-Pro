@@ -1,0 +1,110 @@
+body{
+    margin: 0;
+    padding: 0;
+    position: relative;
+}
+#header{
+    position: relative;
+    height: 120px;
+    width: 100%;
+    /* background-color: aqua; */
+}
+#header div{
+    display: inline-block;  
+    height: 100%; 
+}
+#headerRight{
+    position: relative;
+    display: inline-block;
+    height: 120px;
+    left: 35%;
+}
+.rightNavEle{
+    height: 100%;
+    position:relative;
+    margin: 0 10px;
+    width: 100px;
+    display: inline-block;
+    text-align: center;
+    /* background-color:lightsalmon; */
+    
+}
+.rightNavEle:hover{
+    border-bottom: solid 2px black;
+    cursor:pointer;
+}
+
+.rightNavEle>span{
+    width: 100%;
+    margin: auto;
+    height: 120px;
+    display: inline-block;
+    line-height: 120px;
+    font-size: 15px;
+    color: #666666;
+}
+.rightNavEle>span:hover{
+    color: black;
+}
+#leftNav{
+    position: relative;
+    left: 8%;
+    font-size: 32px;
+    line-height: 120px;
+}
+#leftNav1{
+    font-family: 微软雅黑;
+    font-weight: bold;
+    font-size: 32px;
+    color: #222;
+    margin: auto 0;
+
+}
+#leftNav2{
+    font-size: 32px;
+    font-weight: bold;
+    font-family: 微软雅黑;
+    color: #ccc;
+    margin: auto 0;
+}
+
+#bottomMenu{
+	position: absolute;
+	top:10px;
+	left:0px;
+	background-color: lightcoral;
+	width:100px;
+	height:80px;
+	visibility: hidden;
+	/*display: none;*/
+}
+#nav3:hover #bottomMenu{
+	position: absolute;
+	top:124px;
+	width:100px;
+	height:80px;
+	visibility: visible;
+	z-index: 99;
+	text-align: center;
+	vertical-align: middle;
+	background-color: #fff;
+	/*background-color: lightgreen;*/
+}
+#bottomMenu>ul{
+	list-style: none;
+}
+#bottomMenu>ul{
+	margin: 0px;
+	padding: 0px;
+}
+#bottomMenu li{
+	display: block;
+	height: 50%;
+	line-height: 40px;
+	margin: 0px;
+	padding: 0px;
+}
+
+
+
+

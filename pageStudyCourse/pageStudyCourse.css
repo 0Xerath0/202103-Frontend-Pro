@@ -1,0 +1,37 @@
+#studyCoursePic1{
+    position: relative;
+    top: 10px;
+    background: url("src/mainBackground.jpg")no-repeat;
+    background-size: contain;
+    height: 300px;;
+}
+.lastFour{
+    text-align: center;
+    margin: 40px auto;
+}
+.lastFour img{
+    width: 260px;
+    height: 146px;
+}
+.lastFour>div{
+    display: inline-block;
+    margin: 0 5px;
+    /* float: left; */
+}
+.lastFour>div>span{
+    /* position: relative; */
+    text-align: left;
+    display: block;
+    width: 1000px;
+}
+#bottom{
+    width: 100%;
+    height: 250px;
+    text-align: center;
+    background-color: black;
+}
+#bottom>span{
+    color: aliceblue;
+    line-height: 250px;
+    margin: auto 30px;
+}

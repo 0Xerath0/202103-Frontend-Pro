@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" href="../mainPage/mainpage.css">
+    <link rel="stylesheet" href="pageService.css">
+    <style>
+        #nav5{
+            border-bottom: solid 2px black;
+        }
+    </style>
+</head>
+<body>
+    <div id="header">
+        <div id="leftNav" style="color: coral;">
+        <span id = "leftNav1">手机数码<span id = "leftNav2">模板</span></span>
+        
+        </div>
+        <div  id="headerRight">
+            
+            <div id="nav1" class="rightNavEle" onclick="window.open('https://www.baidu.com')">
+                <span>首页</span>
+            </div>
+            <div id="nav2" class="rightNavEle">
+                <span>关于我们</span>           
+             </div>
+            <div id="nav3" class="rightNavEle">
+                <span>产品展示</span>
+                <div id="bottomMenu">
+                    <ul>
+                        <li><a href="https://www.baidu.com" style="text-decoration:none;color:black;">相机产品</a></li>
+                        <li><a href="https://www.baidu.com" style="text-decoration:none;color:black;">相机镜头</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div id="nav4" class="rightNavEle">
+                <span>学习教程</span>
+            </div>
+            <div id="nav5" class="rightNavEle">
+                <span>相关服务</span>
+            </div>
+        </div>
+    </div>
+    
+    <div id="serviceBackground"></div>
+
+    <div style="margin: 100px 0;">
+        <div id="picHeader">
+            <span style="font-size: 20px;">相关服务</span>
+            <span style="font-size: 12px;color: #a9a9a9;">Related Service</span>
+        </div>
+        <div style="text-align: center;">
+            <div id="pageLastCameraPhoto">
+                <div>
+                    <img src="src/camera1.webp" alt="">
+                </div>
+                <div class="picSubText1">维修和保养</div><br>
+                <div class="picSubText2">确保维护您的产品质量、寿命和内在价值</div>
+            </div>
+            <div id="pageLastCameraPhoto">
+                <div>
+                    <img src="src/camera2.webp" alt="">
+                </div>
+                <div class="picSubText1">上门收件服务</div><br>
+                <div class="picSubText2">在保修期内提供免费上门收件保修服务</div>
+            </div>
+            <div id="pageLastCameraPhoto">
+                <div>
+                    <img src="src/camera3.webp" alt="">
+                </div>
+                <div class="picSubText1">以旧换新服务</div><br>
+                <div class="picSubText2">根据旧产品价格补新产品差价</div>
+            </div>
+        </div>
+        
+    </div>
+
+    <div id="list">
+        <div id="listSub1">
+            <div>
+                <div>您的姓名</div><br>
+                <input type="text" placeholder="请输入您的姓名">
+                <span style="color: red;">*</span>
+            </div>
+            <div>
+                <div>您的电话</div><br>
+                <input type="text" placeholder="请输入您的电话">
+                <span style="color: red;">*</span>
+            </div>
+            <div>
+                <div>您的问题</div><br>
+                <input type="text" placeholder="请输入您遇到的问题">
+                <span style="color: red;">*</span>
+            </div> 
+        </div>
+        <br><br>
+        <div>
+            <div style="float: left;position: relative;left: 50px;top: -20px;">更多需求备注</div><br>
+            <textarea cols="100" rows="5" placeholder="请输入您的需求"></textarea>
+            <span style="color: red;position: relative;left: -100px;top: -40px;">*</span>
+        </div>
+        <button id="btn">马上提交</button>
+    </div>
+    <div id="bottom">
+        <span>Address/地址：XXX省XXX市XXX县XXX路XXX号</span>
+        <span>Tel/联系电话：020-000000 000-000000</span>
+        <span>Mail/邮箱：xxx@.co.m</span>
+    </div>
+</body>
+</html>

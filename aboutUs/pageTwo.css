@@ -1,0 +1,168 @@
+#bottomMenu{
+	position: absolute;
+	top:10px;
+	left:0px;
+	background-color: lightcoral;
+	width:100px;
+	height:80px;
+	visibility: hidden;
+	/*display: none;*/
+}
+#startLoc:hover #bottomMenu{
+	position: absolute;
+	top:124px;
+	width:100px;
+	height:80px;
+	visibility: visible;
+	z-index: 99;
+	text-align: center;
+	vertical-align: middle;
+	background-color: #fff;
+	/*background-color: lightgreen;*/
+}
+#bottomMenu>ul{
+	list-style: none;
+}
+#bottomMenu>ul{
+	margin: 0px;
+	padding: 0px;
+}
+#bottomMenu li{
+	display: block;
+	height: 50%;
+	line-height: 40px;
+	margin: 0px;
+	padding: 0px;
+}
+#picXM1{
+	width: 100%;
+	background: lightcoral;
+	height:300px;
+	position: absolute;
+	overflow: hidden;
+	top:130px;
+	background: url("./src/picXM1.jpg") no-repeat;
+	display: block;
+}
+#aboutUs{
+	/*position: relative;*/
+	display: block;
+	width: 100%;
+	/*background: lightblue;*/
+	height: 500px;
+	text-align: left;
+	overflow: hidden;
+	position: absolute;
+	top:431px;
+}
+.aboutUsWord{
+	position: absolute;
+	left:100px;
+	height: 30px;
+	top:150px;
+	overflow: hidden;
+	/*background-color: lightgreen;*/
+}
+.aboutUsWordContent{
+	/*background-color: lightcoral;*/
+	width: 100%;
+	position: absolute;
+	left:100px;
+	top:185px;
+	overflow: hidden;
+}
+#evaluation{
+	display: block;
+	position: absolute;
+	top:931px;
+	/*background-color: lightgreen;*/
+	height:660px;
+	overflow: hidden;
+	width: 100%
+}
+.evaluationTitle{
+	position: absolute;
+	left: 154px;
+	height: 30px;
+	top:150px;
+}
+.evaluationWordOne{
+	/*background-color: lightcoral;*/
+	height: 138px;
+	width: 100%;
+	position: absolute;
+	left: 154px;
+	top: 181px;
+}
+.userImage{
+	border-radius: 69px;
+	display: inline-block;
+}
+.userComment{
+	font-family: 微软雅黑;
+	/*background-color: lightblue;*/
+	display: inline-block;
+	position: absolute;
+	left:150px;
+	top:35px;
+}
+
+.evaluationWordTwo{
+	/*background-color: lightcoral;*/
+	height: 138px;
+	width: 100%;
+	position: absolute;
+	left: 154px;
+	top: 330px;
+}
+
+.evaluationWordThree{
+	/*background-color: lightcoral;*/
+	height: 138px;
+	width: 100%;
+	position: absolute;
+	left: 154px;
+	top: 479px;
+}
+#videoL{
+	/*background-color: lightcoral;*/
+	position: absolute;
+	top:1700px;
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	text-align: center;
+	vertical-align: middle;
+	overflow: hidden;
+}
+
+#coPartner{
+	/*background-color: lightblue;*/
+	position: absolute;
+	top:2150px;
+	width: 100%;
+	height: 430px;
+	overflow: hidden;
+}
+#coPartnerTitle{
+	position: absolute;
+	left: 150px;
+	top: 150px;
+}
+#footer{
+	background-color: black;
+	height: 300px;
+	width: 100%;
+	overflow: hidden;
+	position: absolute;
+	top: 2600px;
+	font-family: 微软雅黑;
+	text-align:center;
+}
+#footer>div{
+	display: inline-block;
+	height:20px;
+	width: 500px;
+	margin: 0 auto;
+	line-height: 300px;
+}
